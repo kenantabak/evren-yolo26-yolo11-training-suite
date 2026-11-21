@@ -1,0 +1,15 @@
+# Tıbbi Görüntüleme (Röntgen / MR / BT / Dermatoskopi)
+# Kritik ayar: Gri tonlamalı doku kontrastını korumak için hsv_h ve hsv_s sıfır.
+model: yolo26s
+imgsz: 640
+epochs: 60
+batch: 32
+patience: 18
+hsv_h: 0.0
+hsv_s: 0.0
+hsv_v: 0.20
+fliplr: 0.5
+flipud: 0.0
+erasing: 0.0
+mosaic: 0.65
+close_mosaic: 12

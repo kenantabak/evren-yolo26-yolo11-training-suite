@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evren-yolo-training-suite"
+version = "0.2.0"
+description = "Dataset preflight checks, stratified 70/20/10 COCO-to-YOLO splitting, and domain-tailored YOLO26/YOLO11 training configs."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = ["pyyaml>=6.0", "pillow>=10.0.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

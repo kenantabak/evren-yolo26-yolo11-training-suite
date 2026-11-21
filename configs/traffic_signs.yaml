@@ -1,0 +1,15 @@
+# Trafik Levhaları, Plaka ve Rakam/Metin İçeren Nesneler
+# Kritik ayar: Yön okları ve hız rakamlarının bozulmaması için yatay/dikey çevirme kapalıdır.
+model: yolo26s
+imgsz: 768
+epochs: 70
+batch: 24
+patience: 20
+fliplr: 0.0
+flipud: 0.0
+degrees: 0.0
+erasing: 0.0
+mosaic: 0.75
+close_mosaic: 15
+optimizer: auto
+cos_lr: true

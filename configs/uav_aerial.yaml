@@ -1,0 +1,15 @@
+# İHA / Kuşbakışı Hava Görüntüleri ve Küçük Yoğun Hedefler
+# Kritik ayar: Küçük hedeflerin silinmemesi için erasing=0.0, tepe bakışı için dönme açık.
+model: yolo11s
+imgsz: 768
+epochs: 75
+batch: 16
+patience: 20
+fliplr: 0.5
+flipud: 0.5
+degrees: 15.0
+scale: 0.35
+erasing: 0.0
+mosaic: 0.90
+close_mosaic: 15
+cos_lr: true

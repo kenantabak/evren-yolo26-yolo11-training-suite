@@ -1,0 +1,12 @@
+# Endüstriyel Kalite Kontrol (PCB / Yüzey Kusuru) & İş Güvenliği (KKD)
+model: yolo26s
+imgsz: 640
+epochs: 65
+batch: 32
+patience: 20
+fliplr: 0.5
+flipud: 0.0
+erasing: 0.10
+mosaic: 0.85
+close_mosaic: 15
+cos_lr: true
