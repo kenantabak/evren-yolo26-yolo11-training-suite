@@ -19,3 +19,12 @@ cd evren-yolo26-yolo11-training-suite
 pip install -e .
 pytest -v
 ```
+
+---
+
+### 🔗 EVREN Open-Source Ecosystem
+- **EVREN Platform:** [evren.ssyz.org.tr/users/u19979974710e](https://evren.ssyz.org.tr/users/u19979974710e) (`342` Grade-A Datasets · `185` Models)
+- **Live Browser ONNX Demo Space:** [EVREN-Live-Object-Detection-Demo](https://huggingface.co/spaces/kenantabak/EVREN-Live-Object-Detection-Demo)
+- **Hugging Face Portfolio:** [huggingface.co/kenantabak](https://huggingface.co/kenantabak) (`19` Production Models · `10` Datasets · `4` Spaces)
+- **GitHub:** [github.com/kenantabak](https://github.com/kenantabak)
+- **Dev.to Technical Series:** [dev.to/kenantabak](https://dev.to/kenantabak)
